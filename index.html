@@ -3,49 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dilemas Digitais</title>
+    <title>Dilemas Digitais: Problemas e Soluções</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>Dilemas Digitais</h1>
-        <p>A tecnologia avança. A humanidade acompanha?</p>
+        <p>Identificando os impactos da tecnologia e as ações para superá-los.</p>
     </header>
 
     <main class="container">
         <section class="intro">
-            <h2>O Preço da Conexão</h2>
-            <p>Vivemos na era mais conectada da história, mas enfrentamos desafios éticos e psicológicos sem precedentes. Qual é o real impacto das nossas escolhas online?</p>
+            <h2>Diagnóstico da Era Digital</h2>
+            <p>Toda grande inovação traz desafios complexos. Navegue pelos temas abaixo para entender o problema real e descobrir como fazer parte da solução.</p>
         </section>
 
         <section class="grid">
             <div class="card" data-dilema="privacidade">
-                <h3>Privacidade vs. Conveniência</h3>
-                <p>Entregamos nossos dados pessoais em troca de serviços gratuitos. Onde termina o benefício e começa a vigilância?</p>
-                <button class="btn-refletir">Refletir</button>
+                <h3>Vigilância de Dados</h3>
+                <p>O rastreamento massivo de hábitos online compromete a liberdade individual e a segurança.</p>
+                <button class="btn-analisar">Analisar Impacto</button>
             </div>
 
             <div class="card" data-dilema="atencao">
-                <h3>Economia da Atenção</h3>
-                <p>Algoritmos são desenhados para nos manter presos às telas. Como proteger nossa saúde mental e foco?</p>
-                <button class="btn-refletir">Refletir</button>
+                <h3>Dependência Tecnológica</h3>
+                <p>Algoritmos de engajamento extremo causam vício em telas, ansiedade e perda de foco.</p>
+                <button class="btn-analisar">Analisar Impacto</button>
             </div>
 
             <div class="card" data-dilema="verdade">
-                <h3>A Pós-Verdade</h3>
-                <p>Fake news e deepfakes se espalham mais rápido que fatos reais. Como distinguir o real do manipulado?</p>
-                <button class="btn-refletir">Refletir</button>
+                <h3>Crise de Desinformação</h3>
+                <p>Algoritmos priorizam o choque e a mentira, distorcendo a realidade e polarizando sociedades.</p>
+                <button class="btn-analisar">Analisar Impacto</button>
             </div>
         </section>
 
-        <section id="painel-reflexao" class="painel escondido">
-            <h3 id="titulo-reflexao">Dilema</h3>
-            <p id="texto-reflexao">Selecione um tema acima para ver uma provocação.</p>
+        <!-- Painel dinâmico que exibe Problema e Solução -->
+        <section id="painel-analise" class="painel escondido">
+            <h3 id="tema-selecionado">Tema</h3>
+            <div class="bloco-analise">
+                <div class="coluna-problema">
+                    <h4>⚠️ O Problema</h4>
+                    <p id="texto-problema"></p>
+                </div>
+                <div class="coluna-solucao">
+                    <h4>✅ A Solução</h4>
+                    <p id="texto-solucao"></p>
+                </div>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 - Criado para o GitHub Pages</p>
+        <p>&copy; 2026 - Conscientização Digital</p>
     </footer>
 
     <script src="main.js"></script>
